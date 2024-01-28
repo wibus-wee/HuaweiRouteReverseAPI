@@ -1,0 +1,33 @@
+export interface WANDiagnose {
+  AutoFlag:               string;
+  UpMaxBitRate:           string;
+  DownMaxBitRate:         string;
+  Uptime:                 number;
+  DuplexMode:             string;
+  MaxBitRate:             string;
+  HasInternetWan:         boolean;
+  ErrReason:              string;
+  X_IPv6Enable:           boolean;
+  DefaultGateway:         string;
+  WanType:                string;
+  DNSServers:             string;
+  X_IPv6AddressingType:   string;
+  StatusCode:             string;
+  DetailErr:              string;
+  DetailError:            string;
+  X_IPv6PrefixLength:     number;
+  ConnectionType:         string;
+  X_IPv6Address:          string;
+  WANAccessType:          string;
+  X_IPv6DefaultGateway:   string;
+  ConnectionStatus:       string;
+  X_IPv6DNSServers:       string;
+  X_IPv6ConnectionStatus: string;
+  X_IPv6PrefixList:       string;
+  ExternalIPAddress:      string;
+  X_IPv4Enable:           boolean;
+  LinkStatus:             string;
+  Status:                 string;
+  ManWanIP:               string;
+  MACAddress:             string;
+}
