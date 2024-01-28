@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@8.14.0",
-  "description": "Reverse API in Huawei Router Management Panel",
+  "description": "Reverse API of Huawei router management panel",
   "author": "wibus-wee <wibus-wee@qq.com>",
   "license": "MIT",
   "homepage": "https://github.com/wibus-wee/HuaweiRouteReverseAPI#readme",
