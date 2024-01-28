@@ -39,6 +39,23 @@ curl 'http://192.168.3.1/api/system/heartbeat'
 # No Response
 ```
 
+### Terrible `ErrReason`
+
+Just by looking at `ErrReason`, would you think it represents the "error reason"? No, this is Huawei's "error," and it's a very misleading one. Under normal circumstances, **it returns "Success"**, which is highly counterintuitive.
+
+```json
+{
+  // ...
+  "ErrReason": "Success"
+  // ...
+}
+```
+
+The interfaces affected by this "error" include:
+
+- `ntwk/WanDetect.ts`
+- `ntwk/WANDiagnose.ts`
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [wibus-wee](https://github.com/wibus-wee)
