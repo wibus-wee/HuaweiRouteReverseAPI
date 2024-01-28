@@ -20,8 +20,12 @@ Before logging in, the client initiates a request to `/api/system/user_login_non
 
 Subsequently, the client makes a request to `/api/system/user_login_proof`. In this request, the response will include a `Set-Cookie` header containing a `SessionID_R3`. This `SessionID_R3` must be included in the headers of subsequent requests; otherwise, no content will be returned.
 
-> [!IMPORTANT]
-> It has been observed that these requests always include `csrf_token` and `csrf_param`. In the event of encountering `Menu.csrf_err`, proceed by obtaining the `csrf_token` and `csrf_param` from the response body and making the request again. Additionally, after each request, it is necessary to save the latest `csrf_token` and `csrf_param`.
+> [!WARNING]
+> It has been observed that these requests always include `csrf_token` and `csrf_param`.
+>
+> In the event of encountering `Menu.csrf_err`, proceed by obtaining the `csrf_token` and `csrf_param` from the response body and making the request again.
+>
+> Additionally, after each request, it is necessary to save the latest `csrf_token` and `csrf_param`.
 
 The following example is valid (assuming `SessionID_R3` is valid):
 
