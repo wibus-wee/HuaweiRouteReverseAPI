@@ -1,3 +1,3 @@
 export interface Location {
-  isRemote: boolean;
+  isRemote: boolean
 }

@@ -1,3 +1,3 @@
 export interface Heartbeat {
-  interval: string;
+  interval: string
 }

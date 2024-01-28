@@ -1,6 +1,6 @@
 export interface _GetPairStatus {
-  online: boolean;
-  ID:     string;
+  online: boolean
+  ID: string
 }
 
-export type GetPairStatus = _GetPairStatus[];
+export type GetPairStatus = _GetPairStatus[]

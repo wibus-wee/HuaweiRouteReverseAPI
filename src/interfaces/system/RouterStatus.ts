@@ -1,5 +1,5 @@
 export interface RouterStatus {
-  isrepeater: boolean;
-  issupportsmartapp: boolean;
-  guide: boolean;
+  isrepeater: boolean
+  issupportsmartapp: boolean
+  guide: boolean
 }

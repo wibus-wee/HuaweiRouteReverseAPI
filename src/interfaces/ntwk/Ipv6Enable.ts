@@ -1,4 +1,4 @@
 export interface Ipv6Enable {
-  Enable: number;
-  ID:     string;
+  Enable: number
+  ID: string
 }

@@ -1,4 +1,4 @@
 export interface GetMacAddress {
-  macaddress: string;
-  ipaddress:  string;
+  macaddress: string
+  ipaddress: string
 }

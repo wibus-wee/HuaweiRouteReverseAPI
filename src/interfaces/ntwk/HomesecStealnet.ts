@@ -1,13 +1,13 @@
 export interface HomesecStealnet {
-  StealNetModel:         number;
-  AntiLeakageCapability: boolean;
-  Info:                  Info;
+  StealNetModel: number
+  AntiLeakageCapability: boolean
+  Info: Info
 }
 
 interface Info {
-  Cipher: Cipher;
+  Cipher: Cipher
 }
 
 interface Cipher {
-  AbfaEnable: boolean;
+  AbfaEnable: boolean
 }
