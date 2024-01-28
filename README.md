@@ -56,6 +56,10 @@ The interfaces affected by this "error" include:
 - `ntwk/WanDetect.ts`
 - `ntwk/WANDiagnose.ts`
 
+## References
+
+- [mx-space/api-client](https://github.com/mx-space/api-client)
+
 ## License
 
 [MIT](./LICENSE) License © 2023-PRESENT [wibus-wee](https://github.com/wibus-wee)
