@@ -45,13 +45,13 @@ curl 'http://192.168.3.1/api/system/heartbeat'
 
 <!-- Badges -->
 
-[npm-version-src]: https://img.shields.io/npm/v/HuaweiRouteReverseAPI?style=flat&colorA=080f12&colorB=1fa669
-[npm-version-href]: https://npmjs.com/package/HuaweiRouteReverseAPI
-[npm-downloads-src]: https://img.shields.io/npm/dm/HuaweiRouteReverseAPI?style=flat&colorA=080f12&colorB=1fa669
-[npm-downloads-href]: https://npmjs.com/package/HuaweiRouteReverseAPI
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/HuaweiRouteReverseAPI?style=flat&colorA=080f12&colorB=1fa669&label=minzip
-[bundle-href]: https://bundlephobia.com/result?p=HuaweiRouteReverseAPI
-[license-src]: https://img.shields.io/github/license/wibus-wee/HuaweiRouteReverseAPI.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/wibus-wee/HuaweiRouteReverseAPI/blob/main/LICENSE
+[npm-version-src]: https://img.shields.io/npm/v/huawei-route-reverse-api?style=flat&colorA=080f12&colorB=1fa669
+[npm-version-href]: https://npmjs.com/package/huawei-route-reverse-api
+[npm-downloads-src]: https://img.shields.io/npm/dm/huawei-route-reverse-api?style=flat&colorA=080f12&colorB=1fa669
+[npm-downloads-href]: https://npmjs.com/package/huawei-route-reverse-api
+[bundle-src]: https://img.shields.io/bundlephobia/minzip/huawei-route-reverse-api?style=flat&colorA=080f12&colorB=1fa669&label=minzip
+[bundle-href]: https://bundlephobia.com/result?p=huawei-route-reverse-api
+[license-src]: https://img.shields.io/github/license/wibus-wee/huawei-route-reverse-api.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/wibus-wee/huawei-route-reverse-api/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
-[jsdocs-href]: https://www.jsdocs.io/package/HuaweiRouteReverseAPI
+[jsdocs-href]: https://www.jsdocs.io/package/huawei-route-reverse-api
