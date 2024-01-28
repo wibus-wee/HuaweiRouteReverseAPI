@@ -1,14 +1,13 @@
 name: CI
 
 on:
-  workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
-  # pull_request:
-  #   branches:
-  #     - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
   lint:
@@ -25,7 +24,7 @@ jobs:
           node-version: lts/*
 
       - name: Setup
-        run: npm i -g @wibus-wee/ni
+        run: npm i -g @antfu/ni
 
       - name: Install
         run: nci
@@ -47,7 +46,7 @@ jobs:
           node-version: lts/*
 
       - name: Setup
-        run: npm i -g @wibus-wee/ni
+        run: npm i -g @antfu/ni
 
       - name: Install
         run: nci
@@ -76,7 +75,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Setup
-        run: npm i -g @wibus-wee/ni
+        run: npm i -g @antfu/ni
 
       - name: Install
         run: nci
