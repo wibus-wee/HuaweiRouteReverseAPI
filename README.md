@@ -72,7 +72,7 @@ The interfaces affected by this "error" include:
 [npm-downloads-href]: https://npmjs.com/package/huawei-route-reverse-api
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/huawei-route-reverse-api?style=flat&colorA=080f12&colorB=1fa669&label=minzip
 [bundle-href]: https://bundlephobia.com/result?p=huawei-route-reverse-api
-[license-src]: https://img.shields.io/github/license/wibus-wee/huawei-route-reverse-api.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/wibus-wee/huawei-route-reverse-api/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/wibus-wee/HuaweiRouteReverseAPI.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/wibus-wee/HuaweiRouteReverseAPI/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsdocs-reference-080f12?style=flat&colorA=080f12&colorB=1fa669
 [jsdocs-href]: https://www.jsdocs.io/package/huawei-route-reverse-api
